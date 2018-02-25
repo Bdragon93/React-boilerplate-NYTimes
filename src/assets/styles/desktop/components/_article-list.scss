@@ -1,0 +1,19 @@
+@import '../../variables';
+
+@media (min-width: 1024px) {
+  .article-list {
+    .p-home & {
+      margin-left: -10px;
+      margin-right: -10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      & > li {
+        min-height: 1px;
+        margin-bottom: 20px;
+        flex-basis: 25%;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

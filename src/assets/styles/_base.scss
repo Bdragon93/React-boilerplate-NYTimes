@@ -1,0 +1,17 @@
+@import './variables';
+
+// Desktop
+@media (min-width: 1024px) {
+  .container {
+    max-width: $container-width;
+    margin: 0 auto;
+  }
+}
+
+.clearfix:after {
+  clear: both;
+  content: '.';
+  display: block;
+  width: 0px;
+  height: 0px;
+}

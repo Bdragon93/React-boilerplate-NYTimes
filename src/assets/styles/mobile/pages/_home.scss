@@ -1,0 +1,23 @@
+@import '../../variables';
+
+.p-home {
+  .home-header {
+    padding: 20px;
+    font-size: 16px;
+    background-color: #5c7d8a;
+    color: $white;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+
+    > * {
+      margin: 0;
+    }
+    .title {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+
+    .breaf {
+      font-size: 18px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import '../../variables';
+@media (min-width: 1024px) {
+  .p-article {
+    margin-top: 20px;
+    padding: 20px;
+    min-height: auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  }
+}

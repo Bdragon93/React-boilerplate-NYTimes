@@ -1,0 +1,40 @@
+@import '../../variables';
+
+.article-item {
+  background: $white;
+
+  .article-img {
+    width: 100%;
+    border-radius: 2px 2px 0 0;
+  }
+
+  .article-content {
+    padding: 15px;
+
+    & > * {
+      &:not(:last-child) {
+        margin-bottom: 10px;
+      }
+    }
+
+    .snippet {
+      display: block;
+    }
+
+    .date {
+      padding-top: 10px;
+      border-top: 1px solid $gray-e;
+      color: $gray-9;
+      font-size: 12px;
+    }
+  }
+
+  .p-home & {
+    border-radius: 2px;
+    display: block;
+    margin: 5px 10px 10px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.07);
+  }
+}
+
+@import '../../desktop/components/article-item';

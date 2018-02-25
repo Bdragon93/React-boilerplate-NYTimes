@@ -1,0 +1,37 @@
+@import '../../variables';
+
+.paginator {
+  display: block;
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: center;
+
+  li {
+    display: inline-block;
+
+    button {
+      text-decoration: none;
+      font-size: 12px;
+      margin: 0px 4px;
+      width: 25px;
+      height: 25px;
+      border: 1px solid $gray-afafb2;
+
+      &.active {
+        color: $white;
+        background-color: $gray-707165;
+        font-weight: 700;
+      }
+
+      &:hover {
+        border: 1px solid $page-btn-border;
+        background-color: $page-btn-bg;
+        color: $gray-42;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+@import '../../desktop/components/paginator';
+

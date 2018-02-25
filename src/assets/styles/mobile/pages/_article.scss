@@ -1,0 +1,9 @@
+@import '../../variables';
+
+.p-article {
+  min-height: 100vh;
+  background-color: $white;
+}
+
+@import '../../desktop/pages/article';
+

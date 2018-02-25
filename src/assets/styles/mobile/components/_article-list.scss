@@ -1,0 +1,11 @@
+@import '../../variables';
+
+.article-list {
+  .p-home & {
+    //background-color: $white;
+    margin: 20px 0;
+    border-radius: 5px;
+  }
+}
+
+@import '../../desktop/components/article-list';

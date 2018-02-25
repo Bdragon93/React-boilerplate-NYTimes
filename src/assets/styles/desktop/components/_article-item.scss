@@ -1,0 +1,20 @@
+@import '../../variables';
+
+@media (min-width: 1024px) {
+  .article-item {
+    .p-article & {
+      display: flex;
+      .article-link {
+        flex-basis: 40%;
+
+        .article-img {
+          border-radius: 2px;
+        }
+      }
+      .article-content {
+        flex-basis: 60%;
+        padding-top: 0;
+      }
+    }
+  }
+}
